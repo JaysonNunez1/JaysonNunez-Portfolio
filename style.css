@@ -1,5 +1,16 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif, serif;
+box-sizing: border-box;
+}
+
+
+
 body{
     margin: 0px;
+    background: black;
+    color: #c71e1e;
 }
 
 
@@ -8,13 +19,13 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color:rgb(73, 73, 73);
+    background-color:rgb(0, 0, 0);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 .navbar a{
-color: rgb(233, 228, 228);
+color: rgb(178, 18, 18);
 text-decoration: none;
 padding: 15px;
 display: block;
