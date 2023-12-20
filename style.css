@@ -3,20 +3,24 @@ margin: 0;
 padding: 0;
 font-family: sans-serif, serif;
 box-sizing: border-box;
+
 }
-
-
-
 body{
     margin: 0px;
     background: black;
     color: #c71e1e;
 }
 
-
 h1{
     text-align: center;
+    font-size: 40px;
+    margin-top: 1%;
+    font-family: sans-serif;
 }
+h1 span{
+color: white;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color:rgb(0, 0, 0);
@@ -37,3 +41,51 @@ text-align: center;
 .navbar li{
 float: left;
 }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+}
+nav ul li a::after{
+content: '';
+width: 100%;
+height: 4px;
+background: rgb(195, 13, 13);
+position: absolute;
+left:0;
+bottom: -8px;
+}
+.header-content{
+    font: size 16px; ;
+    color: white;
+    margin-top: 0%;
+    
+    
+}
+/* about me section */
+
+#Aboutme{
+padding: 66px 0;
+color: whitesmoke;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color:whitesmoke; 
+
+}
+
