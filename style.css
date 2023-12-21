@@ -83,15 +83,14 @@ margin: 2%;
 }
 .about-col-1{
     flex-basis: 35%;
-    margin: 8%;
-    padding: 12%;
+   
 }
 img{
-    padding-left: 13%;
+     padding-left: 13%;
     padding-bottom: 1%;
     padding-right: -15%;
-    border-radius: 160px 0;
-    width: 100%;
+    border-radius: 170px 70px 70px;
+    width: 80%;
     margin: -21px;
     padding-top: 3%;
 }
@@ -147,7 +146,7 @@ flex-basis: 60%;
 }
 .tab-contents ul li span{
     color:#c60606;
-    font-size: 14px;
+    font-size: 13px;
 }
 .tab-contents{
     display: none;

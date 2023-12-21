@@ -30,19 +30,19 @@
  <div id="Aboutme">
     <div class="container"> 
         <div class="row">
-                <div class="about me-col-1">
+                <div class="about-col-1">
                     <img src="images/Jayson_professional.png" alt="Professional photo">
                 </div>
-                <div class="about me-col-2">
+                <div class="about-col-2">
                     <h2 class="sub-title">About me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ut doloribus facere sed eius deserunt mollitia, dignissimos sit nesciunt autem excepturi. </p>
+                    <p>Hello my name is Jayson Nunez.I am 25 years old from Queens New york.Currently i am a part time music producer/audio mixing engineer looking to change my career into tech.I have 0 coding experience,but am eager to learn the essential skills needed to succed in the tech industry. </p>
                     <br>
                     <div class="tab-titles">
-                        <p class="tab-links active-link">Skills</p>
-                        <p class="tab-links active-link">Experience</p>
-                        <p class="tab-links active-link">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience<p>
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
              </div>
-                    <div class="tab-contents active-tab">
+                    <div class="tab-contents active-tab" id="Skills">
                     <ul>
         <li><span>fluent in Html</span><br>Creating the framework/layout for web and Mobile applications</li><br>
         <li><span>fluent in css</span><br>Styling,and arranging Web and Mobile applications</li><br>
@@ -50,7 +50,7 @@
     </ul>
 </div>
 
-<div class="tab-contents">
+<div class="tab-contents" id="Education">
     <ul>
         <li><span>2023 - Current</span><br>Columbia Engineering Coding Bootcamp</li><br>
         <!-- <li><span>fluent in css</span><br>Styling,and arranging Web and Mobile applications</li><br> -->
