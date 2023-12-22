@@ -66,7 +66,6 @@ nav ul li a::after{
 
 }
 /* about me section */
-
 #Aboutme{
     padding: 22px 0;
     color: whitesmoke;
@@ -142,4 +141,29 @@ ul{
 .tab-contents ul li span{
     color:#c60606;
     font-size: 13px;
+}
+.navbar2 ul{
+    list-style-type: none;
+    background-color:rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar2 a{
+    color: rgb(178, 18, 18);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar2 a:hover{
+    background-color:rgb(35, 35, 35);
+}
+.navbar2 > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.img2{
+    width: 400px;
+    border-radius: 0;
 }
