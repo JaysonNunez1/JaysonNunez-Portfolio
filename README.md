@@ -1,1 +1,2 @@
-# JaysonNunez-s-Portfolio
+# JaysonNunez Portfolio
+Hello my name is Jayson Nunez. i have created this project to show case my web dev skills,and provide more info about myself to users and recruiters on the web.I have provided my recent work,my contact information,Social media info as well as a short description of myself.
